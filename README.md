@@ -5,7 +5,7 @@
   <img src="https://img.shields.io/badge/Rating-4.9%2F5-F9A825?style=for-the-badge&logo=star" />
   <img src="https://img.shields.io/badge/Version-2026-101010?style=for-the-badge&logo=github" />
   <img src="https://img.shields.io/badge/Platform-Windows%20%7C%20macOS-informational?style=for-the-badge&logo=windows" />
-  <img src="https://img.shields.io/badge/Category-Virtual+Audio-E63946?style=for-the-badge&logo=appstore" />
+  <img src="https://img.shields.io/badge/Category-Audio+Routing-E63946?style=for-the-badge&logo=appstore" />
 </p>
 
 **💻 BlackHole Audio Free Installer** — BlackHole is a free, open-source macOS virtual audio driver that routes audio between applications with zero added latency. Works without internet access, no account required. Full offline installation.
@@ -30,16 +30,16 @@
 
 ## 📖 About BlackHole Audio
 
-BlackHole is a free, open-source macOS virtual audio driver that routes audio between applications with zero added latency. Create virtual audio devices of 2, 16, or 64 channels for routing audio from one application's output to another's input. Essential for macOS audio recording, streaming, and virtual instrument workflows. BlackHole's low-latency design makes it suitable for professional audio production.
+BlackHole is a free, open-source macOS virtual audio driver that routes audio between applications with zero added latency. It is the standard solution for audio routing on macOS, widely used for podcasting, music production, and streaming workflows.
 
 ---
 
 ## ❌ Problem: BlackHole Audio is hard to access
 
-- **macOS Only** — Windows users need VB-CABLE
-- **Technical Setup** — Audio routing requires understanding of macOS audio aggregate device configuration
-- **No GUI** — Driver only; routing configuration done through macOS Audio MIDI Setup
-- **Reinstallation on Updates** — macOS system updates sometimes require reinstalling kernel extension
+- **macOS Only** — Windows users should use VB-CABLE instead
+- **Technical Setup** — Configuring audio routing in macOS requires using the Audio MIDI Setup utility
+- **No GUI** — Configuration done entirely through macOS system tools
+- **Channel Variants** — Multiple versions (2ch, 16ch, 64ch) require selecting correct build
 
 ---
 
